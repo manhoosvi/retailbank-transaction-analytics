@@ -11,7 +11,7 @@ Build an automated AWS data pipeline that ingests retail banking data, performs 
 - Amazon S3
 - AWS Glue
 - AWS Glue Data Quality
-- Amazon Redshift
+- Amazon Athena
 - AWS Step Functions
 - AWS Lambda
 - Amazon CloudWatch
@@ -21,7 +21,7 @@ Build an automated AWS data pipeline that ingests retail banking data, performs 
 
 ## Pipeline
 
-Source Files → S3 Raw → Glue ETL & Data Quality → Curated Redshift → KPI Analytics
+Source Files → S3 Raw → Glue ETL & Data Quality → Curated Athena → KPI Analytics
 
 Invalid records → S3 Quarantine
 
